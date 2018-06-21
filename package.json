@@ -1,0 +1,31 @@
+{
+  "name": "node-express-starter",
+  "version": "1.0.0",
+  "description": "Simple starter app using node, express, and ejs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ierso/node-express-starter.git"
+  },
+  "keywords": [],
+  "author": "Cory Pierson <coryierso@gmail.com> (https://corypierson.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ierso/node-express-starter/issues"
+  },
+  "homepage": "https://github.com/ierso/node-express-starter#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "eslint": "^4.19.1",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
